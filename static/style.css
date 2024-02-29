@@ -1,0 +1,81 @@
+#基础样式
+body {
+    font-family: Arial, sans-serif;
+    background-color: #023047;
+    margin: 0;
+    padding: 0;
+}
+
+/* H1 样式 */
+h1 {
+    color: #000000; /* 白色字体 */
+    font-size: 2.5em; /* 字体大小 */
+    font-weight: bold; /* 粗体 */
+    text-align: center; /* 居中对齐 */
+    margin-bottom: 0.5em; /* 下边距 */
+    padding-bottom: 10px; /* 下内边距 */
+}
+
+/* H2 样式 */
+h2 {
+    color: #000000; /* 淡蓝色字体 */
+    font-size: 2em; /* 字体大小 */
+    font-weight: normal; /* 正常字体粗细 */
+    margin-bottom: 0.75em; /* 下边距 */
+    text-align: left; /* 左对齐 */
+}
+
+
+-------------------------------------------------------------------
+#导航栏样式
+.navbar {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    padding: 0;
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    color: #6c757d;
+}
+
+-------------------------------------------------------------------
+#按钮与表单样式
+
+#math-keyboard button onclick[type="insertSymbol"] {
+    padding: 5px 10px;
+    text-align: center;   /* 文本居中 */
+    overflow: hidden;     /* 防止文本溢出 */
+    margin: 10px 20px 10px 20px;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+#math-keyboard {
+    margin-top: 20px;
+}
+
+
+button:hover {
+    background-color: #e9ecef;
+}
+
+input[type='text'] {
+
+}
